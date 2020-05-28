@@ -118,7 +118,14 @@ $(document).ready(function () {
 			$('#myBtn').fadeOut();
 		}
 	});
-
+	$("#owl-demo").owlCarousel({
+		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		items: 8,
+		itemsDesktop: [1199, 7],
+		itemsTablet:[769,6],
+		itemsMobile: [600, 3],
+		navigation:true,
+	});
 	$('#myBtn').click(function () {
 		$("html, body").animate({
 			scrollTop: 0
