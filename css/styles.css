@@ -161,6 +161,7 @@ hr {
 .tm-portfolio {
   background: #f8f8f8;
   padding-top: 80px;
+  padding-left:15px;
 }
 .tm-portfolio .container {
   width: 100%;
