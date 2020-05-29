@@ -118,13 +118,27 @@ $(document).ready(function () {
 			$('#myBtn').fadeOut();
 		}
 	});
-	$("#owl-demo").owlCarousel({
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
-		items: 8,
-		itemsDesktop: [1199, 7],
-		itemsTablet:[769,6],
-		itemsMobile: [600, 3],
-		navigation:true,
+	$(".owl-carousel").owlCarousel({
+		autoplay: true,
+		autoplayTimeout:3000, //Set AutoPlay to 3 seconds
+		responsive : {
+			0 : {
+				items:3,
+			},
+			480 : {
+				items:3,
+			},
+			768 : {
+				items:7,
+			},
+			1024 : {
+				items:8,
+			},
+		},
+		nav: true,
+		rewind:false,
+		loop: true,
+		navText:['prev','next'],
 	});
 	$('#myBtn').click(function () {
 		$("html, body").animate({

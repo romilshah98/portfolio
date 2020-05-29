@@ -131,9 +131,8 @@ hr {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.tm-padding-top-bottom-50 {
+.tm-padding-top-50 {
   padding-top: 50px;
-  padding-bottom: 50px;
 }.tm-work-h3 {
   color: #eb5424;
   font-size: 20px;
@@ -529,7 +528,7 @@ ul{
 }
 
 #owl-demo .item{
-  margin: 3px;
+  margin-left: 15px;
 }
 #owl-demo .item img{
   display: block;
@@ -537,26 +536,16 @@ ul{
   height: auto;
 }
 
+
 .owl-buttons{
   display: -webkit-inline-box;
   margin-top: 20px;
 }
 .owl-next{
-  opacity: 1;
-  border-radius: 20px;
-  background-color: #869791;
-  color:white;
   margin: 10px;
-  padding: 3px 10px;;
-
 }
 .owl-prev {
-  opacity: 1;
-  border-radius: 20px;
-  background-color: #869791;
-  color:white;
   margin: 10px;
-  padding: 3px 10px;
 }
 
 
