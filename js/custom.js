@@ -119,6 +119,7 @@ $(document).ready(function () {
 		}
 	});
 	$("#owl-demo").owlCarousel({
+		loop: true,
 		autoPlay: 3000, //Set AutoPlay to 3 seconds
 		items: 8,
 		itemsDesktop: [1199, 7],
