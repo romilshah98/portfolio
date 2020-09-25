@@ -421,6 +421,10 @@ input { height: 50px; }
   }
 }
 
+#projects, #certi{
+  padding-left: 0px !important;
+}
+
 /* START MEDIA 980 */
 @media screen and (max-width:980px){
   .portfolio-overlay  { padding-top: 10px; }
@@ -436,9 +440,12 @@ input { height: 50px; }
 }
 
 /* START MEDIA 425 */
-@media screen and (max-width:425px){
+@media screen and (max-width:426px){
   h2{
     font-size: 40px !important;
+  }
+  #about h2{
+    text-align: center;
   }
 }
 /* END MEDIA 425 */

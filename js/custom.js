@@ -138,7 +138,7 @@ $(document).ready(function () {
 		nav: true,
 		rewind:false,
 		loop: true,
-		navText:['prev','next'],
+		navText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 	});
 	$('#myBtn').click(function () {
 		$("html, body").animate({
