@@ -138,7 +138,7 @@ $(document).ready(function () {
 		nav: true,
 		rewind:false,
 		loop: true,
-		navText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+		navText:["<i class='fa fa-angle-left' style='font-size:30px; margin-top:-40px; position: absolute; top: 50%; color:#005e91; float:left; left:0;'></i>","<i class='fa fa-angle-right' style='font-size:30px; margin-top:-40px; position: absolute; top: 50%; color:#005e91; float:left; right:0;'></i>"],
 	});
 	$('#myBtn').click(function () {
 		$("html, body").animate({
