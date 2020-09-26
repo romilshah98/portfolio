@@ -413,11 +413,20 @@ input { height: 50px; }
   .templatemo-home {
     background-attachment: scroll;
   }
+  #owl-demo .item{
+    margin-left: 40px;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
     background-attachment: scroll;
+  }
+  
+  #owl-demo .item{
+    margin-left: 25px;
+    margin-top: 10px;
   }
 }
 
@@ -428,6 +437,14 @@ input { height: 50px; }
 /* START MEDIA 980 */
 @media screen and (max-width:980px){
   .portfolio-overlay  { padding-top: 10px; }
+  
+  #owl-demo .item{
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .edu{
+    font-weight: 700 !important;
+  }
 }
 /* END MEDIA 980 */
 
@@ -437,6 +454,10 @@ input { height: 50px; }
   h2{
     font-size: 40px !important;
   }
+  #owl-demo .item{
+    margin-left: 15px;
+    margin-top: 10px;
+  }
 }
 
 /* START MEDIA 425 */
@@ -444,8 +465,12 @@ input { height: 50px; }
   h2{
     font-size: 40px !important;
   }
-  #about h2{
-    text-align: center;
+  .edu{
+    font-weight: 300 !important;
+  }
+  #owl-demo .item{
+    margin-left: 30px;
+    margin-top: 10px;
   }
 }
 /* END MEDIA 425 */
@@ -455,6 +480,10 @@ input { height: 50px; }
   .navbar-default .navbar-brand {  padding-top: 2px; }
   h2{
     font-size: 35px !important;
+  }
+  #owl-demo .item{
+    margin-left: 12px;
+    margin-top: 10px;
   }
 }
 /* END MEDIA 360 */
@@ -502,9 +531,7 @@ ul{
   padding-inline-start: 0px;
 }
 
-#owl-demo .item{
-  margin-left: 15px;
-}
+
 #owl-demo .item img{
   display: block;
   width: 100%;
