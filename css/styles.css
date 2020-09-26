@@ -458,6 +458,9 @@ input { height: 50px; }
     margin-left: 15px;
     margin-top: 10px;
   }
+  .edu{
+    font-weight: 300 !important;
+  }
 }
 
 /* START MEDIA 425 */
@@ -465,9 +468,7 @@ input { height: 50px; }
   h2{
     font-size: 40px !important;
   }
-  .edu{
-    font-weight: 300 !important;
-  }
+  
   #owl-demo .item{
     margin-left: 30px;
     margin-top: 10px;
